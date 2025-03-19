@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=keyboard_arrow_down" />
+    <link rel="stylesheet" href="landing.css">
+    <script src="landing.js"></script>
+    <script src="scrollToBottom.js"></script>
+    <title>Reverb & Riot</title>
+</head>
+
+<body>
+    <section>
+    <div class="image1">  
+        <div id="overlay>"></div>
+
+
+        <div class ="topNav">
+            <h3 class="name" id="topNavText">R & R</h3>
+            <a class="active" id="topNavText" href="#">Home</a>
+            <a id="topNavText"href="artist.html">Our Artists</a>
+            <a id="topNavText" href="">About</a>
+    
+        </div>
+    
+
+    <div class="tagline">
+        <h2>Discover new Music</h2>
+        <h2>Book sensational artists</h2>
+        <button id="bookNow"><a style="text-decoration: none;color:black;font-family:'Times New Roman', Times, serif;" href="#section3">Book Now</a>
+        </button>
+    </div>
+  
+
+    <div class="learnMore">
+        <h3>Learn More</h3>
+        <button id="btnDown"><span class="material-symbols-sharp">
+            <a style="text-decoration: none;color:#DAD4B5;" href="#section2">keyboard_arrow_down</a>
+            
+            </span>
+        </button>
+    </div>
+</div>
+</section>
+
+
+<section class="sec2" id="section2">
+    <div class="image2">  
+    
+    <div class="feature1" id="f1">
+        <h2>Featured Artists</h2>
+        <div id="LV">
+        <h3>Liora Vance</h3>
+        <p><i>"Pop’s next enchantress."</i><br>
+A vibrant mix of catchy hooks and enchanting vocals,
+ Liora Vance lights up the pop scene. Her music is as bold and colorful as her personality,
+ leaving fans spellbound.</p>
+            <audio id="aud" controls src="/audios/Final Soliloquy - Asher Fulero (1).mp3"></audio>
+    
+    </div>
+
+
+    <div id="EW">
+        <h3>Ezra Wolfe</h3>
+        <p><i>"Untamed, unfiltered, unforgettable."</i><br>
+            A gritty rock powerhouse, Ezra Wolfe howls with electric energy.
+             With raspy vocals and thundering guitar riffs,
+             they’re the heartbeat of alternative rock.</p>
+             <audio id="aud" controls src="/audios/Final Soliloquy - Asher Fulero (1).mp3"></audio>
+    </div>
+
+    <div id="NS">
+        <h3>Nova Sinclair</h3>
+        <p><i>"The voice of midnight confessions."</i><br>
+        An indie-folk storyteller with haunting melodies and poetic lyrics,
+             Nova Sinclair captures the raw beauty of heartbreak and hope.
+             Acoustic strings and soulful vibes define their sound.</p>
+             <audio id="aud" controls src="/audios/Final Soliloquy - Asher Fulero (1).mp3"></audio>
+    </div>
+
+
+    <div id="SG">
+        <h3>S. Galaxy</h3>
+        <p><i>"Where synths meet stardust."</i><br>
+            A cosmic blend of electronic beats and dreamy vocals, 
+            S. Galaxy transports listeners to otherworldly realms. Known for their futuristic soundscapes,
+             they dominate the electro-pop universe.</p>
+             <audio id="aud" controls src="/audios/Final Soliloquy - Asher Fulero (1).mp3"></audio>
+    </div>
+</div>
+
+    </div>
+</section>
+
+<section class="sec3" id="section3">
+    <div class="image3">
+        <div id="container">
+            <h1> Keep in Touch</h1>
+            <div class="underline">
+            </div>
+            <form action="#" method="post" id="contact_form">
+              <div class="nameContact">
+                <label for="name"></label>
+                <input type="text" placeholder="My name is" name="name" id="name_input" required>
+              </div>
+              <div class="email">
+                <label for="email"></label>
+                <input type="email" placeholder="My e-mail is" name="email" id="email_input" required>
+              </div>
+              <div class="telephone">
+                <label for="name"></label>
+                <input type="text" placeholder="My number is" name="telephone" id="telephone_input" required>
+              </div>
+              <div class="subject">
+                <label for="subject"></label>
+                <select placeholder="Subject line" name="subject" id="subject_input" required>
+                  <option disabled hidden selected>Spin Your Request!</option>
+                  <option>Booking a Gig : Need a band/DJ for an event?</option>
+                  <option>Collab Request : Lets make musical magic together?</option>
+                  <option>General Vibes : Just saying hey!</option>
+                </select>
+              </div>
+              <div class="message">
+                <label for="message"></label>
+                <textarea name="message" placeholder="Final Remix: Any last details?" id="message_input" cols="30" rows="5" required></textarea>
+              </div>
+              <div class="submit">
+                <input type="submit" value="Send Message" id="form_button" />
+              </div>
+            </form><!-- // End form -->
+          </div><!-- // End #container -->
+    </div>
+
+</section>
+    
+</body>
+</html>
